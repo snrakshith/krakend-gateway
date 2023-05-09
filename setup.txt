@@ -1,0 +1,5 @@
+docker run -p 8080:8080 -v $PWD:/etc/krakend/ devopsfaith/krakend run --config /etc/krakend/krakend.json
+
+Registering usage stats for Cluster ID FVwZbeHrjjHP8Il4FduNnmgCsPdHq71pVDaEv4SfD2Q=
+
+krakend-config2dot -c /g/api-karkend/karkend.json | dot -Tpng -o config.png
